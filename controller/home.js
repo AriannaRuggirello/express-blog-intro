@@ -20,7 +20,7 @@ function index(req,res){
      
     })
 
-    res.send("<h1>Benvenuto nel mio blog! </h1>");
+   
 }
 
 
@@ -34,19 +34,28 @@ function post(req,res){
             const html = [`<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
           <h1>POST</h1>`];
     
-          html.push("<ul>");
+          html.push("<div class='row row-cols-3 justify-content-between '>");
     
           for (const post of posts) {
-            html.push(`<li>
-              <h3>${post.title}</h3>
-              <img src="/imgs/${post.image}" alt="" style="width: 100px">
-            </li>`);
+            html.push(`
+            <div class='col'>
+            <div class="card" style="width: 250px;">
+            <img src="/imgs/${post.image}" class="card-img-top" alt="...">
+            <h5 class="card-title"></h5>
+            <div class="card-body">
+                <p class="card-text">${post.content}</p>
+            </div>
+            </div>
+            </div>`);
           }
     
-          html.push("</ul>");
+          html.push("</div>");
     
           res.send(html.join(""));
+
+        // let postContent = fs.readFileSync(path.resolve(__dirname, "../post.html"), "utf-8");
        
+        // res.type('html').send(postContent)
 
            
         },
