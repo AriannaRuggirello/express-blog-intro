@@ -10,19 +10,20 @@
 
 // importo express
 const express = require('express');
+// importo dotenv
+const dotenv = require('dotenv').config();
 // importo rotta
 const homeController = require('./controller/home');
 
 
-// importo dotenv
-const dotenv = require('dotenv').config();
-
 // creo listanza express
 const app = express();
+// configuro i file statici
+app.use(express.static("public"));
 
 // definizione rotte
 app.get('/', homeController.index);
-app.get('/posts', homeController.posts);
+app.get('/posts', homeController.post);
 
 
 

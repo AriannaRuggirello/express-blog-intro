@@ -1,51 +1,51 @@
 [{
-        "image": "marinara.jpeg",
-        "title": "Margherita",
-        "content": "margherita.webp",
+        "image": "bootstrap.png",
+        "title": "bootstrap",
+        "content": "contenuto ",
         "tags": [
-            "pomodoro",
-            "mozzarella"
+            "tag1",
+            "tag2"
         ]
     },
     {
-        "image": "marinara.jpeg",
-        "title": "Marinara",
-        "content": "marinara.jpeg",
+        "image": "css-3.png",
+        "title": "css",
+        "content": "contenuto ",
         "tags": [
-            "pomodoro",
-            "aglio",
-            "origano"
+            "tag1",
+            "tag3",
+            "tag4"
         ]
     },
     {
-        "image": "marinara.jpeg",
-        "title": "Diavola",
-        "content": "diavola.jpeg",
+        "image": "github.png",
+        "title": "git",
+        "content": "contenuto ",
         "tags": [
-            "pomodoro",
-            "mozzarella",
-            "salame piccante"
+            "tag1",
+            "tag2",
+            "tag5"
         ]
     },
     {
-        "image": "marinara.jpeg",
-        "title": "Bufalina",
-        "content": "bufalina.jpeg",
+        "image": "html-5.png",
+        "title": "html",
+        "content": "contenuto ",
         "tags": [
-            "pomodoro",
-            "mozzarella di bufala"
+            "tag1",
+            "tag2"
         ]
     },
     {
-        "image": "marinara.jpeg",
-        "title": "4 formaggi",
-        "content": "4_formaggi.jpeg",
+        "image": "js.png",
+        "title": "js",
+        "content": "contenuto ",
         "tags": [
-            "pomodoro",
-            "mozzarella",
-            "gorgonzola",
-            "parmigiano",
-            "ricotta"
+            "tag1",
+            "tag2",
+            "tag3",
+            "tag6"
+
         ]
     }
 ]
