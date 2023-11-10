@@ -1,0 +1,51 @@
+[{
+        "image": "marinara.jpeg",
+        "title": "Margherita",
+        "content": "margherita.webp",
+        "tags": [
+            "pomodoro",
+            "mozzarella"
+        ]
+    },
+    {
+        "image": "marinara.jpeg",
+        "title": "Marinara",
+        "content": "marinara.jpeg",
+        "tags": [
+            "pomodoro",
+            "aglio",
+            "origano"
+        ]
+    },
+    {
+        "image": "marinara.jpeg",
+        "title": "Diavola",
+        "content": "diavola.jpeg",
+        "tags": [
+            "pomodoro",
+            "mozzarella",
+            "salame piccante"
+        ]
+    },
+    {
+        "image": "marinara.jpeg",
+        "title": "Bufalina",
+        "content": "bufalina.jpeg",
+        "tags": [
+            "pomodoro",
+            "mozzarella di bufala"
+        ]
+    },
+    {
+        "image": "marinara.jpeg",
+        "title": "4 formaggi",
+        "content": "4_formaggi.jpeg",
+        "tags": [
+            "pomodoro",
+            "mozzarella",
+            "gorgonzola",
+            "parmigiano",
+            "ricotta"
+        ]
+    }
+]
