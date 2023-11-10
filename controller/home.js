@@ -1,11 +1,25 @@
+const express = require("express");
+
+const fs = require("fs");
+const path = require("path");
 // importo json
 const posts = require('../db/posts.json');
+
 
 /**
  * @param {express.Request} req 
  * @param {express.Response} res 
  */
 function index(req,res){
+    res.format({
+        'html' : ()=>{
+            let htmlContent = fs.readFileSync(path.resolve(__dirname, "../index.html"), "utf-8");
+       
+            res.type('html').send(htmlContent)
+        }
+     
+    })
+
     res.send("<h1>Benvenuto nel mio blog! </h1>");
 }
 
@@ -32,6 +46,8 @@ function post(req,res){
           html.push("</ul>");
     
           res.send(html.join(""));
+       
+
            
         },
         'json' :()=>{
